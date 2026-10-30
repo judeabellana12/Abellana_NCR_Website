@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Your Trip | NCR Tourism</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header and Navigation -->
+    <header class="site-header">
+        <a class="brand" href="index.html">
+            <span class="brand-mark">☀</span>
+            <span>NCR<small>TOURISM</small></span>
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="activities.html">Activities</a>
+            <a href="history.html">History</a>
+            <a href="plan-trip.html" class="active">Travel Guide</a>
+        </nav>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <h1>Plan Your Trip</h1>
+        <p>Prepare for your Metro Manila adventure with this simple travel guide.</p>
+    </section>
+
+    <main>
+
+        <!-- Three-Day Itinerary -->
+        <section class="section-heading">
+            <h2>Your 3-Day NCR Itinerary</h2>
+            <p>A sample schedule for exploring history, culture, and city life.</p>
+        </section>
+
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Morning</th>
+                        <th>Afternoon</th>
+                        <th>Evening</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Day 1</strong></td>
+                        <td>Explore Intramuros</td>
+                        <td>Visit Fort Santiago</td>
+                        <td>Enjoy dinner in Manila</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Day 2</strong></td>
+                        <td>Visit Rizal Park</td>
+                        <td>Explore the National Museum</td>
+                        <td>Try Filipino food</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Day 3</strong></td>
+                        <td>Explore Bonifacio Global City</td>
+                        <td>Visit shops, parks, and public art</td>
+                        <td>Enjoy dinner before departure</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Travel Tips -->
+        <section class="panel section-gap">
+            <h2>Travel Tips</h2>
+            <ul class="activity-list">
+                <li>Check traffic conditions before leaving for your destination.</li>
+                <li>Use trusted transportation services and follow road safety rules.</li>
+                <li>Bring water, sunscreen, and an umbrella.</li>
+                <li>Keep your belongings secure in crowded areas.</li>
+                <li>Respect local customs and historical landmarks.</li>
+                <li>Check the opening hours and entrance fees of attractions in advance.</li>
+                <li>Prepare extra money for transportation and unexpected expenses.</li>
+            </ul>
+        </section>
+
+        <!-- Packing Checklist -->
+        <section class="panel section-gap">
+            <h2>Packing Checklist</h2>
+            <p>Check each item as you prepare for your trip.</p>
+
+            <ul class="checklist">
+                <li><label><input type="checkbox"> Valid ID</label></li>
+                <li><label><input type="checkbox"> Phone and charger</label></li>
+                <li><label><input type="checkbox"> Wallet and cash</label></li>
+                <li><label><input type="checkbox"> Comfortable clothes and shoes</label></li>
+                <li><label><input type="checkbox"> Water bottle</label></li>
+                <li><label><input type="checkbox"> Umbrella or raincoat</label></li>
+                <li><label><input type="checkbox"> Personal hygiene items</label></li>
+                <li><label><input type="checkbox"> Personal medication, if needed</label></li>
+            </ul>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="panel section-gap">
+            <h2>Contact Us</h2>
+            <p>Have questions about visiting NCR? Fill out the form below.</p>
+
+            <form action="#" method="get">
+                <div>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname"
+                           placeholder="Enter your full name" required>
+                </div>
+
+                <div>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email"
+                           placeholder="Enter your email address" required>
+                </div>
+
+                <div>
+                    <label for="visit-date">Planned Visit Date</label>
+                    <input type="date" id="visit-date" name="visit-date" required>
+                </div>
+
+                <div>
+                    <label for="travelers">Number of Travelers</label>
+                    <input type="number" id="travelers" name="travelers"
+                           min="1" max="100" value="1" required>
+                </div>
+
+                <div>
+                    <label for="notes">Questions / Notes</label>
+                    <textarea id="notes" name="notes"
+                              placeholder="Write your questions or travel plans here"></textarea>
+                </div>
+
+                <button type="submit" class="button">Send Message →</button>
+            </form>
+
+            <p class="form-note">
+                This is a static student project. The form does not send messages
+                to an email address without a connected form service or backend.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="activities.html">Activities</a>
+            <a href="history.html">History & Culture</a>
+        </div>
+        <p><strong>NCR Tourism</strong> — Discover the Heart of the Philippines</p>
+        <p>Contact: <i>judeabellana29@gmail.com</i></p>
+        <p>© 2026 NCR Tourism | IntroComp Final Task</p>
+    </footer>
+
+</body>
+</html>
